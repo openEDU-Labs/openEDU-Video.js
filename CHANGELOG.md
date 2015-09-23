@@ -136,6 +136,13 @@ CHANGELOG
 * @heff removed the loadedalldata event ([view](https://github.com/videojs/video.js/pull/2591))
 * @dmlap switched to using raynos/xhr for requests ([view](https://github.com/videojs/video.js/pull/2594))
 * @heff Fixed double loadstart and ready events ([view](https://github.com/videojs/video.js/pull/2605))
+* @gkatsev fixed potential double default style elements ([view](https://github.com/videojs/video.js/pull/2619))
+* @imbcmdth extended createTimeRange to support multiple timeranges ([view](https://github.com/videojs/video.js/pull/2604))
+* @misteroneill rename &quot;extends&quot; to &quot;extend&quot; for ie8 ([view](https://github.com/videojs/video.js/pull/2624))
+* @forbesjo removed the PhantomJS dependency ([view](https://github.com/videojs/video.js/pull/2622))
+* @misteroneill re-exposed videojs.TextTrack ([view](https://github.com/videojs/video.js/pull/2625))
+* @heff removed a second copy of video.novtt.js from dist ([view](https://github.com/videojs/video.js/pull/2630))
+* @heff fixed timeranges deprecation warnings in tests ([view](https://github.com/videojs/video.js/pull/2627))
 
 --------------------
 
