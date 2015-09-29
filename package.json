@@ -1,8 +1,7 @@
 {
-  "name": "video.js",
-  "description": "An HTML5 and Flash video player with a common API and skin for both.",
-  "version": "5.0.0-rc.104",
-  "copyright": "Copyright Brightcove, Inc. <https://www.brightcove.com/>",
+  "name": "openEDU-video.js",
+  "description": "The video player based off of the Video.js platfom.",
+  "version": "5.0.0-rc.99",
   "license": "Apache-2.0",
   "keywords": [
     "flash",
@@ -57,6 +56,7 @@
     "grunt-contrib-cssmin": "~0.6.0",
     "grunt-contrib-jshint": "^0.11.0",
     "grunt-contrib-less": "~0.6.4",
+    "grunt-contrib-sass": "^0.8.0",
     "grunt-contrib-uglify": "^0.8.0",
     "grunt-contrib-watch": "~0.1.4",
     "grunt-coveralls": "^1.0.0",
@@ -64,7 +64,6 @@
     "grunt-fastly": "^0.1.3",
     "grunt-github-releaser": "^0.1.17",
     "grunt-karma": "^0.8.3",
-    "grunt-sass": "^0.18.1",
     "grunt-version": "~0.3.0",
     "grunt-videojs-languages": "0.0.4",
     "grunt-zip": "0.10.2",
@@ -85,7 +84,8 @@
     "sinon": "^1.16.1",
     "time-grunt": "^1.1.1",
     "uglify-js": "~2.3.6",
-    "videojs-doc-generator": "0.0.1"
+    "videojs-doc-generator": "0.0.1",
+    "videojs-youtube": "^1.2.12"
   },
   "standard": {
     "ignore": [
