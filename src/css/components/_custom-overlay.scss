@@ -1,0 +1,18 @@
+.vjs-custom-overlay-display {
+  position: absolute;
+  bottom: 3em;
+  left: 0;
+  right: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+/* Move captions down when controls aren't being shown */
+.video-js.vjs-user-inactive.vjs-playing .vjs-custom-overlay-display {
+  bottom: 1em;
+}
+
+.vjs-subtitles { color: #fff /* Subtitles are white */; }
+.vjs-captions { color: #fc6 /* Captions are yellow */; }
+.vjs-tt-cue { display: block; }
+

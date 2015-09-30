@@ -32,7 +32,7 @@ import BigPlayButton from './big-play-button.js';
 import ControlBar from './control-bar/control-bar.js';
 import ErrorDisplay from './error-display.js';
 import TextTrackSettings from './tracks/text-track-settings.js';
-
+import CustomOverlay from './custom-overlay/custom-overlay.js';
 // Require html5 tech, at least for disposing the original video tag
 import Html5 from './tech/html5.js';
 
