@@ -33,3 +33,4 @@ dist/*
 *.html~
 *.css~
 *.scss~
+*.gitignore~
