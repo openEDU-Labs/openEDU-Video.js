@@ -8,6 +8,7 @@ import MenuButton from '../menu/menu-button.js';
 import * as Fn from '../utils/fn.js';
 import document from 'global/document';
 import window from 'global/window';
+import  * as Dom from '../utils/dom.js';
 
 const darkGray = '#222';
 const lightGray = '#ccc';
@@ -71,9 +72,17 @@ class CustomOverlay extends Component {
    * @method createEl
    */
   createEl() {
-    return super.createEl('div', {
-      className: 'vjs-text-track-display'
+    var el  = super.createEl('div', {
+      className: 'vjs-custom-overlay-display'
     });
+
+    this.contentEl_ = Dom.createEl('p');
+    console.log(this);
+    console.log(el);
+    //console.log(this.contentEl_);
+    el.appendChild(this.contentEl_);
+    this.contentEl_.innerHTML = 'This is test text this is test test kslafjklasdjfkadsflkajdsflkajdflkajdflaskfjlakdfjlkadjflkadfjlksadfjlkajdfklj slkdfjlaksdfjlkasfjlkasdfjlkasdjflkadjflkajdsfklajdfklajdfkjasdf asdf jaskdfjlakdsfjkas dflkasdj faskldfjaksdfj lkads flkadj flkdfj lkajdf lakjdf ';
+    return el;
   }
 
   /**
