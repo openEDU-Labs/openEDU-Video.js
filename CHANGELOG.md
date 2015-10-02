@@ -2,6 +2,11 @@ CHANGELOG
 =========
 
 ## HEAD (Unreleased)
+_(none)_
+
+--------------------
+
+## 5.0.0 (2015-09-29)
 * @carpasse infer MIME types from file extensions in the HTML5 and Flash techs ([view](https://github.com/videojs/video.js/pull/1974))
 * @mmcc updated the slider to allow for vertical orientation ([view](https://github.com/videojs/video.js/pull/1816))
 * @dmlap removed an ie6 hack for flash object embedding ([view](https://github.com/videojs/video.js/pull/1946))
@@ -150,7 +155,46 @@ CHANGELOG
 * @heff improved some skin defaults for external styling ([view](https://github.com/videojs/video.js/pull/2642))
 * @heff changed component child lists to arrays instead of objects ([view](https://github.com/videojs/video.js/pull/2477))
 
---------------------
+## 4.12.15 (2015-08-31)
+* @dmlap update to videojs-swf 4.7.4 ([view](https://github.com/videojs/video.js/pull/2463))
+* @bc-bbay migrate seeking on replay to the flash tech ([view](https://github.com/videojs/video.js/pull/2519))
+* Updated to v4.7.5 of the swf ([view](https://github.com/videojs/video.js/pull/2531))
+
+## 4.12.14 (2015-08-21)
+* @gkatsev removed non-default track auto-disabling ([view](https://github.com/videojs/video.js/pull/2468))
+
+## 4.12.13 (2015-08-10)
+* @dmlap update to videojs-swf v4.7.3 ([view](https://github.com/videojs/video.js/pull/2457))
+
+## 4.12.12 (2015-07-23)
+* @imbcmdth updated source handlers to use bracket notation so they wont break when using minified videojs ([view](https://github.com/videojs/video.js/pull/2348))
+* @imbcmdth fix potential triggerReady infinite loop ([view](https://github.com/videojs/video.js/pull/2398))
+
+## 4.12.11 (2015-07-09)
+* @saxena-gaurav updated swf to 4.7.2 to fix flash of previous video frame ([view](https://github.com/videojs/video.js/pull/2300))
+* @gkatsev updated the vtt.js version to fix JSON issues ([view](https://github.com/videojs/video.js/pull/2327))
+* @dmlap fixed an error caused by calling vjs_getProperty on the swf too early ([view](https://github.com/videojs/video.js/pull/2289))
+
+## 4.12.10 (2015-06-23)
+* @dmlap update to video-js-swf 4.7.1 ([view](https://github.com/videojs/video.js/pull/2280))
+* @imbcmdth src() should not return blob URLs with MSE source handlers ([view](https://github.com/videojs/video.js/pull/2271))
+
+## 4.12.9 (2015-06-15)
+* @imbcmdth updated currentSrc to return src instead of blob urls in html5 tech. Fixes #2232 ([view](https://github.com/videojs/video.js/pull/2232))
+* @imbcmdth fixed async currentSrc behavior ([view](https://github.com/videojs/video.js/pull/2256))
+
+## 4.12.8 (2015-06-05)
+* @dmlap add the seekable property ([view](https://github.com/videojs/video.js/pull/2207))
+* @dmlap fix seekable export ([view](https://github.com/videojs/video.js/pull/2227))
+
+## 4.12.7 (2015-05-19)
+* @tjenkinson Added background-color to vjs-poster to remove transparent borders around scaled poster image ([view](https://github.com/videojs/video.js/pull/2138))
+* @bc-bbay fixed a bug where the player would try to autoplay when there was no source ([view](https://github.com/videojs/video.js/pull/2127))
+* @bc-bbay update time display on loadedmetadata ([view](https://github.com/videojs/video.js/pull/2151))
+* @dmlap update swf to 4.7 to pick up preload fix ([view](https://github.com/videojs/video.js/pull/2170))
+
+## 4.12.6 (2015-05-07)
+* @saxena-gaurav fixed a bug from disposing after changing techs ([view](https://github.com/videojs/video.js/pull/2125))
 
 ## 4.12.5 (2015-03-17)
 * Updated to videojs-swf v4.5.4 to fix a potential security issue ([view](https://github.com/videojs/video.js/pull/1955))

@@ -1,7 +1,8 @@
 {
-  "name": "openEDU-video.js",
-  "description": "The video player based off of the Video.js platfom.",
-  "version": "5.0.0-rc.99",
+  "name": "video.js",
+  "description": "An HTML5 and Flash video player with a common API and skin for both.",
+  "version": "5.0.0",
+  "copyright": "Copyright Brightcove, Inc. <https://www.brightcove.com/>",
   "license": "Apache-2.0",
   "keywords": [
     "flash",
